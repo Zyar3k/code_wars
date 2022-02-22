@@ -1,5 +1,3 @@
-"use strict";
-
 /*
 Given the string representations of two integers,
 return the string representation of the sum of those integers.
@@ -62,10 +60,10 @@ function sumStrings(a, b) {
   return res.replace(/^0+/, "");
 }
 /*
-describe("Tests", () => {
-  it("test", () => {
-Test.assertEquals(sumStrings('123','456'),'579')
+  describe("Tests", () => {
+    it("test", () => {
+  Test.assertEquals(sumStrings('123','456'),'579')
+    });
   });
-});
-
-*/
+  
+  */
